@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Anime Songs Lyrics",
+        "url": "https://huggingface.co/datasets/v3xlrm1nOwo1/AnimeSongsLyrics",
+        "tag": "Dataset",
+        "container": "This dataset compiles a diverse collection of lyrics from various anime songs, providing a rich resource for enthusiasts and researchers alike.",
+        "image": "https://cdn-uploads.huggingface.co/production/uploads/64af7c627ab7586520ed8688/O4sbjXoEsn0mEswzFg1Kp.jpeg"
+    },
+    {
+        "name": "Anime Quotes",
+        "url": "https://huggingface.co/datasets/v3xlrm1nOwo1/AnimeQuotes",
+        "tag": "Dataset",
+        "container": "This dataset contains a curated collection of inspiring and memorable quotes from various anime series, sourced from the Anime Motivation website. The quotes are stored as a list of dictionaries and can be easily accessed for analysis, research, or personal enjoyment.",
+        "image": "https://cdn-uploads.huggingface.co/production/uploads/64af7c627ab7586520ed8688/p5OxsdeQQmJ5ayHMen0X0.jpeg"       
+    }
+]
