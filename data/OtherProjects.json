@@ -1,0 +1,74 @@
+[
+    {
+        "title": "Songs Genre Classification",
+        "container": "Songs Genre Classification by Lyrics With BERT And LoRA. In this project I using scrapped lyrics from 6 genres and I selected Rap, Rock and Hip Hop",
+        "image src": "https://skillicons.dev/icons?i=python,pytorch",
+        "image alt": "Python, PyTorch",
+        "image style": "width: 85px;  margin-top: auto;",
+        "url": "https://github.com/v3xlrm1nOwo1/Songs-Genre-Classification-by-Lyrics-With-BERT-And-LoRA"
+    },
+    {
+        "title": "fungi diagnostic chars comparison japanese",
+        "container": "fungi diagnostic chars comparison japanese with BERT base japanese. I used opendelta library for parameter efficient finetuning",
+        "image src": "https://skillicons.dev/icons?i=python,pytorch",
+        "image alt": "Python, PyTorch",
+        "image style": "width: 85px;  margin-top: auto;",
+        "url": "https://github.com/v3xlrm1nOwo1/fungi-diagnostic-chars-comparison-japanese-classification-with-BERT"
+    },
+    {
+        "title": "llama2 for know Medical Dialogues",
+        "container": "I created this project for I learning how finetuning LLM and understanding and generating medically-informed dialogue.",
+        "image src": "https://skillicons.dev/icons?i=python,pytorch",
+        "image alt": "Python, PyTorch",
+        "image style": "width: 85px;  margin-top: 25px;",
+        "url": "https://github.com/v3xlrm1nOwo1/know-Medical-Dialogues-With-LLama2"
+    },
+    {
+        "title": "Myanimelist Scraper",
+        "container": "Myanimelist Scraper that scrape anime data, reviews and characters information from Myanimelist.net.",
+        "image src": "https://skillicons.dev/icons?i=python",
+        "image alt": "Python",
+        "image style": "width: 37px; margin-top: 47px",
+        "url": "https://github.com/v3xlrm1nOwo1/myanimelist-scraper"
+    },
+    {
+        "title": "Try Git and Github",
+        "container": "This Repo contains all the common commands in Git, You can fork this Repo and add the commands you want to add or practice on Github workflow and Git commands",
+        "image src": "https://skillicons.dev/icons?i=python,git,github",
+        "image alt": "Python, Git, Github",
+        "image style": "width: 125px;  margin-top: 0%;",
+        "url": "https://github.com/v3xlrm1nOwo1/Try-Git-and-Github"
+    },
+    {
+        "title": "Food Tracker",
+        "container": "Food Tracker App used with Python Flask HTML, CSS, SQL Alchemy and SQLite",
+        "image src": "https://skillicons.dev/icons?i=python,flask,html,css,sqlite",
+        "image alt": "Python, Flask, HTML, CSS, SQLite",
+        "image style": "width: 200px; margin-top: 27%;",
+        "url": "https://github.com/v3xlrm1nOwo1/Food-Tracker"
+    },
+    {
+        "title": "Questions and Answers",
+        "container": "Questions and Answer used with Python, Flask, HTML, CSS, SQL Alchemy and SQLite",
+        "image src": "https://skillicons.dev/icons?i=python,flask,html,css,sqlite",
+        "image alt": "Python, Flask, HTML, CSS, SQLite",
+        "image style": "width: 200px;  margin-top: 27%;",
+        "url": "https://github.com/v3xlrm1nOwo1/questions-and-answers"
+    },
+    {
+        "title": "Write Text in GIF",
+        "container": "Write Text in GIF is a script using Pyhton",
+        "image src": "https://skillicons.dev/icons?i=python",
+        "image alt": "Python",
+        "image style": "width: 35px; margin-top: 38%;",
+        "url": "https://github.com/v3xlrm1nOwo1/Write-Text-in-GIF"
+    },
+    {
+        "title": "Member API",
+        "container": "It's a simple API using Flask.",
+        "image src": "https://skillicons.dev/icons?i=python,flask,html,css,sqlite",
+        "image alt": "Python, Flask, HTML, CSS, SQLite",
+        "image style": "width: 200px; margin-top: 27%;",
+        "url": "https://github.com/v3xlrm1nOwo1/Member-API"
+    }
+]

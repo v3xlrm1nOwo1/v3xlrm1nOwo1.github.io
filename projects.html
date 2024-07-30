@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/styles/index.css">
+    <link rel="icon" type="image/x-icon" href="src/img/favicon.ico" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://kit.fontawesome.com/a59b9b09ab.js" crossorigin="anonymous"></script>
+    <script type="module" src="./src/scripts/index.js" defer></script>
+    <title>Projects</title>
+</head>
+
+<body id="top-projects">
+    <header>
+        <nav id="nav">
+            <div class="navbar">
+                <a style="text-decoration: none; margin-left: 0px; padding: 0" href="index.html">
+                    <img src="https://avatars.githubusercontent.com/u/87325345?v=4" alt="Caroline logo"
+                        style="border-radius: 5px;" />
+                    <h4 class="nav-title">Mohammed『v3xlrm1nOwo1』</h4>
+                </a>
+                <div class="links">
+                    <a class="nav-link" href="index.html">Home</a>
+                    <!-- <a class="nav-link" href="/#about">About</a> -->
+                    <a class="nav-link" href="index.html#certificates">Certificates</a>
+                    <a class="nav-link" href="projects.html">Projects</a>
+                    <a class="nav-link" href="publications.html">Publications</a>
+                    <!-- <a class="nav-link" href="/#contact">Contact</a> -->
+                </div>
+                <div class=" hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <h1 class="heading-proj">Datasets</h1>
+
+    <div id="paperList" class="paper-div" style="align-items: center;"></div>
+    <div id="datasetList"></div>
+    
+
+
+    <h1 class="heading-proj">Main Projects</h1>
+
+    <!-- Mean Project -->
+
+    <!-- START project one -->
+    <div class="projects-div">
+
+        <img src="https://cdn-uploads.huggingface.co/production/uploads/64af7c627ab7586520ed8688/O4sbjXoEsn0mEswzFg1Kp.jpeg" alt="Ninja Files" class="project-img">
+
+        <div class="proj-info-one">
+
+            <h2 class="proj-h-one">Akiyama Mio</h2>
+
+            <p class="proj-p-one">
+                Mio is NLP Model Capable For Generating Anime Songs Lyrics.
+            </p>
+
+            <div class="frame-div">
+                <p class="frameworks">
+                    <img style="width: 100px;" src="https://skillicons.dev/icons?i=python,pytorch" alt="Stack"
+                        class="stack-right" />
+                </p>
+            </div>
+
+            <div class="small-links">
+                <a href="https://github.com/v3xlrm1nOwo1/AkiyamaMio" target="_blank"><img class="small-github"
+                        src="./src/img/small-github.png" alt="Github icon"></a>
+                <a href="https://github.com/v3xlrm1nOwo1/AkiyamaMio" target="_blank">
+                    <img class="small-link" src="./src/img/external-link.png" alt="Link icon">
+                </a>
+            </div>
+
+        </div>
+    </div>
+    <!-- END project one -->
+
+    <!-- START project two -->
+    <div class="projects-div">
+        <div class="proj-info-two">
+
+            <h2 class="proj-h-two">Google Play Sentiment Analysis</h2>
+
+            <p class="proj-p-two">
+                Google Play sentiment analysis for reviews apps with BERT. 
+                This project uses reviews from 33 applications, the max length being determined by the longest review.
+            </p>
+
+            <div class="div-proj-two">
+                <p class="frameworks-two">
+                    <img style="width: 100px;" src="https://skillicons.dev/icons?i=python,pytorch" alt="Stack" class="stack-left" />
+                </p>
+            </div>
+
+            <div class="small-links-two">
+
+                <a href="https://github.com/v3xlrm1nOwo1/Google-Play-Sentiment-Analysis-With-BERT" target="_blank"><img
+                        class="small-github" src="./src/img/small-github.png" alt="GitHub icon"></a>
+
+                <a href="https://github.com/v3xlrm1nOwo1/Google-Play-Sentiment-Analysis-With-BERT" target="_blank">
+                    <img class="small-link" src="./src/img/external-link.png" alt="Link icon">
+                </a>
+
+            </div>
+
+        </div>
+        <img style="height: 250px;" src="https://github.com/v3xlrm1nOwo1/Google-Play-Sentiment-Analysis-With-BERT/raw/99a077da77dd114a8657736a735c1fd7497daaf8/apps.png" alt="Apps" class="project-img">
+    </div>
+    <!-- END project two -->
+
+
+    <!-- START Other Project -->
+    <h2 class="heading-two">Other noteworthy projects</h2>
+
+    <div class="main-scroll-div" style="margin-left: 5%; height: auto; margin-bottom: 5%;">
+        
+        <div>
+            <button class="icon-arrow" onclick="scrolll()"> <i class="fas fa-angle-double-left"></i></button>
+        </div>
+
+        <div class="cover">
+            <div class="scroll-images" style="scrollbar-width: none;">
+                <div id="projects-container" class="small-projects"></div>
+            </div>
+        </div>
+
+        <div>
+            <button class="icon-arrow" onclick="scrollr()"> <i class="fas fa-angle-double-right"></i></button>
+        </div>
+
+    </div>
+    <!-- END Other Project -->
+
+    <a href="projects.html#top-projects" class="arrow-bac">
+        <img src="./src/img/arrow-top.svg" class="arrow" alt="Arrow Top">
+    </a>
+
+    <footer>
+        <div class="icons">
+            <a href="https://www.linkedin.com/in/mohammed-khalil-b62525217" target="_blank" class="img-bac">
+                <img class="icon" src="./src/img/linkedin.svg" alt="LinkedIn icon">
+            </a>
+
+            <a href="https://github.com/v3xlrm1nOwo1" target="_blank" class="img-bac">
+                <img class="icon" src="./src/img/github.svg" alt="Github icon">
+            </a>
+
+            <a href="mailto:v3xlrm1nowo1@gmail.com" class="img-bac">
+                <img class="icon" src="./src/img/email.svg" alt="EMail icon">
+            </a>
+
+            <a href="https://discord.com/users/1115629890314715156" class="img-bac">
+                <img class="icon" src="./src/img/discord.svg" alt="Discord icon">
+            </a>
+
+            <a href="https://mo7ammed.medium.com/" class="img-bac">
+                <img class="icon" src="./src/img/medium.svg" alt="Medium icon">
+            </a>
+
+            <a href="https://x.com/v3xlrm1nOwo1" class="img-bac">
+                <img class="icon" src="./src/img/twitter.svg" alt="Twitter icon">
+            </a>
+
+            <a href="https://t.me/v3xlrm1nOwo1" class="img-bac">
+                <img class="icon" src="./src/img/telegram.svg" alt="Telegram icon">
+            </a>
+        </div>
+
+        <div class="github">
+            <a class="github-link" href="https://github.com/v3xlrm1nowo1/v3xlrm1nowo1.github.io">Copyright ©
+                Mohammed『v3xlrm1nOwo1』</a>
+        </div>
+    </footer>
+    <script src="./src/scripts/utils.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+[
+    {
+        "name": "ATHAR",
+        "url": "https://huggingface.co/datasets/mohamed-khalil/ATHAR",
+        "tag": "Dataset",
+        "container": "ATHAR: A High-Quality and Diverse Dataset for Collection of Classical Arabic Texts to English Translation",
+        "image": "https://cdn-uploads.huggingface.co/production/uploads/64af7c627ab7586520ed8688/SwkKk3Z6kT5VZ3Oj-bVMC.jpeg"
+    },
+    {
+        "name": "Kaidan Nihonbunka",
+        "url": "https://huggingface.co/datasets/mohamed-khalil/KaidanNihonbunka",
+        "tag": "Dataset",
+        "container": "The kaidan Nihonbunka Dataset is a collection of Japanese folklore of ghost stories, also known as kaidan, associated with the traditional Japanese ritual of Hyakumonogatari.",
+        "image": "https://cdn-uploads.huggingface.co/production/uploads/64af7c627ab7586520ed8688/VbXOBJgHwWFvJHsXTyBUQ.jpeg"
+    },
+    {
+        "name": "Anime Songs Lyrics",
+        "url": "https://huggingface.co/datasets/mohamed-khalil/AnimeSongsLyrics",
+        "tag": "Dataset",
+        "container": "This dataset compiles a diverse collection of lyrics from various anime songs, providing a rich resource for enthusiasts and researchers alike.",
+        "image": "https://cdn-uploads.huggingface.co/production/uploads/64af7c627ab7586520ed8688/O4sbjXoEsn0mEswzFg1Kp.jpeg"
+    },
+    {
+        "name": "Anime Quotes",
+        "url": "https://huggingface.co/datasets/mohamed-khalil/AnimeQuotes",
+        "tag": "Dataset",
+        "container": "This dataset contains a curated collection of inspiring and memorable quotes from various anime series, sourced from the Anime Motivation website. The quotes are stored as a list of dictionaries and can be easily accessed for analysis, research, or personal enjoyment.",
+        "image": "https://cdn-uploads.huggingface.co/production/uploads/64af7c627ab7586520ed8688/p5OxsdeQQmJ5ayHMen0X0.jpeg"       
+    }
+]
