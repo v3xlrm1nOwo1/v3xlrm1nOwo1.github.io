@@ -1,0 +1,14 @@
+[
+    {
+        "name": "ATHAR: A High-Quality and Diverse Dataset for Classical Arabic to English Translation",
+        "url": "https://arxiv.org/abs/2407.19835v2",
+        "tag": "ArabicNLP",
+        "date": "2025-09-04",
+        "other": "Mohammed Khalil, Mohammed Sabry",
+        "equalContrib": ["Mohammed Khalil", "Mohammed Sabry"],
+        "citations": 2,
+        "isConference": true,
+        "abstract": "Classical Arabic represents a significant era that encompasses the golden age of Arab culture, philosophy, and scientific literature. With a broad consensus on the importance of translating these literatures to enrich knowledge dissemination across communities, the advent of large language models (LLMs) and translation systems offers promising tools to facilitate this goal. However, we have identified a scarcity of translation datasets in Classical Arabic, which are often limited in scope and topics, hindering the development of high-quality translation systems. In response, we present the ATHAR dataset, which comprises 66,000 high-quality classical Arabic to English translation samples that cover a wide array of topics including science, culture, and philosophy. Furthermore, we assess the performance of current state-of-the-art LLMs under various settings, concluding that there is a need for such datasets in current systems. Our findings highlight how models can benefit from fine-tuning or incorporating this dataset into their pretraining pipelines. The dataset is publicly available on the HuggingFace Data Hub: this https URL: https://huggingface.co/datasets/mohamed-khalil/ATHAR.",
+        "bibtex": "@inproceedings{khalil2025athar,\n  title={{ATHAR}: A High-Quality and Diverse Dataset for Classical Arabic to English Translation},\n  author={Mohammed Khalil and Mohammed Sabry},\n  booktitle={Proceedings of ArabicNLP 2025},\n  year={2025},\n  url={https://arxiv.org/abs/2407.19835v2}\n}"
+    }
+]

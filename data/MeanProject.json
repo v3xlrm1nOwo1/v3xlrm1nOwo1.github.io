@@ -1,0 +1,24 @@
+[
+    {
+        "title": "Akiyama Mio",
+        "description": "Mio is NLP Model Capable For Generating Anime Songs Lyrics.",
+        "image": "https://cdn-uploads.huggingface.co/production/uploads/64af7c627ab7586520ed8688/O4sbjXoEsn0mEswzFg1Kp.jpeg",
+        "imageAlt": "Akiyama Mio",
+        "frameworks": "https://skillicons.dev/icons?i=python,pytorch",
+        "frameworksAlt": "Python, PyTorch",
+        "frameworksWidth": "100px",
+        "githubUrl": "https://github.com/v3xlrm1nOwo1/AkiyamaMio",
+        "externalUrl": "https://github.com/v3xlrm1nOwo1/AkiyamaMio"
+    },
+    {
+        "title": "Google Play Sentiment Analysis",
+        "description": "Google Play sentiment analysis for reviews apps with BERT. This project uses reviews from 33 applications, the max length being determined by the longest review.",
+        "image": "https://github.com/v3xlrm1nOwo1/Google-Play-Sentiment-Analysis-With-BERT/raw/99a077da77dd114a8657736a735c1fd7497daaf8/apps.png",
+        "imageAlt": "Google Play App Reviews",
+        "frameworks": "https://skillicons.dev/icons?i=python,pytorch",
+        "frameworksAlt": "Python, PyTorch",
+        "frameworksWidth": "100px",
+        "githubUrl": "https://github.com/v3xlrm1nOwo1/Google-Play-Sentiment-Analysis-With-BERT",
+        "externalUrl": "https://github.com/v3xlrm1nOwo1/Google-Play-Sentiment-Analysis-With-BERT"
+    }
+]

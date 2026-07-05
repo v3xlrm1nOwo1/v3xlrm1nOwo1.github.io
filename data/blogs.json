@@ -1,0 +1,71 @@
+[
+    {
+        "title": "ATHAR: Building a High-Quality Dataset for Classical Arabic to English Translation",
+        "date": "2025-10-18",
+        "description": "A deep dive into ATHAR — a 66,000-pair Classical Arabic to English translation dataset spanning 18 medieval works, and what it reveals about the limits of current LLMs on under-represented languages.",
+        "file": "athar-classical-arabic-dataset.md",
+        "tags": ["Arabic NLP", "Dataset", "LLMs", "NLP"],
+        "readingTime": 10
+    },
+    {
+        "title": "Machine Translation: Building a Transformer Encoder-Decoder From Scratch in PyTorch",
+        "date": "2023-03-10",
+        "description": "A complete walk-through of a full encoder-decoder Transformer built from scratch in PyTorch for Arabic-to-English translation, covering sinusoidal positional encoding, multi-head attention, cross-attention, the Noam LR schedule, label smoothing, and greedy decoding.",
+        "file": "transformer-implementation-from-scratch.md",
+        "tags": [
+            "Transformer",
+            "PyTorch",
+            "Machine Translation",
+            "Deep Learning",
+            "Arabic NLP",
+            "NLP"
+        ],
+        "series": {
+            "name": "Building Transformer from Scratch in PyTorch",
+            "part": 3,
+            "total": 3
+        },
+        "readingTime": 10
+    },
+    {
+        "title": "BaybGPT: Building a Decoder-Only Transformer From Scratch in PyTorch",
+        "date": "2025-03-04",
+        "description": "A complete walk-through of BaybGPT — a from-scratch PyTorch implementation of a GPT-style decoder-only Transformer trained on Rumi's Arabic/Persian poetry, covering causal attention, character-level tokenisation, cosine scheduling, and autoregressive generation.",
+        "file": "baybgpt-from-scratch.md",
+        "tags": [
+            "GPT",
+            "Transformer",
+            "PyTorch",
+            "Deep Learning",
+            "Arabic NLP",
+            "NLP"
+        ],
+        "series": {
+            "name": "Building Transformer from Scratch in PyTorch",
+            "part": 2,
+            "total": 3
+        },
+        "readingTime": 10
+    },
+    {
+        "title": "BaybBERT: Building a Encoder-Only Transformer From Scratch in PyTorch",
+        "date": "2025-02-28",
+        "description": "A full walk-through of BaybBERT — a from-scratch PyTorch implementation of BERT covering bidirectional self-attention, MLM and NSP pre-training, dataset construction, and the complete training pipeline.",
+        "file": "baybbert-from-scratch.md",
+        "tags": ["BERT", "Transformer", "PyTorch", "NLP", "Deep Learning"],
+        "series": {
+            "name": "Building Transformer from Scratch in PyTorch",
+            "part": 1,
+            "total": 3
+        },
+        "readingTime": 8
+    },
+    {
+        "title": "PDF Text Extraction Using Google Translate's OCR and Selenium",
+        "date": "2025-02-02",
+        "description": "A deep dive into automating text extraction from scanned PDF books using Google Translate's image OCR mode, Selenium, and pdf2image — with support for Arabic, Persian, and dozens of other scripts.",
+        "file": "pdf-ocr-google-translate.md",
+        "tags": ["Python", "OCR", "Selenium", "Automation"],
+        "readingTime": 5
+    }
+]

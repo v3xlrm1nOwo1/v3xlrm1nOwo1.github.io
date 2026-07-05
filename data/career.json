@@ -1,0 +1,34 @@
+[
+    {
+        "type": "education",
+        "title": "Bachelor of Science in Computer Science",
+        "organization": "Sudan University of Science and Technology",
+        "period": "2018 — 2025",
+        "location": "Khartoum, Sudan",
+        "description": "Studied core Computer Science fundamentals including mathematics, algorithms, data structures, databases, and software engineering. Pursued independent research in ML Optimization, NLP, Model Surgery, and ML for Biology alongside coursework.",
+        "tags": [
+	    "Computer Science",
+	    "Software Engineering",
+            "Mathematics",
+	    "Machine Learning",
+            "NLP",
+            "Algorithms"
+        ]
+    },
+    {
+        "type": "experience",
+        "title": "Independent ML Researcher",
+        "organization": "Independent Research",
+        "period": "2022 — Present",
+        "location": "Remote",
+        "description": "Conducting self-directed research across ML Optimization, NLP, Model Surgery, and ML for Biology. Built and published datasets, developed Transformer-based models for Arabic NLP, and applied deep learning to biological sequence modeling. Work has been accepted at international workshops and conferences.",
+        "tags": [
+	    "Research",
+            "ML Optimization",
+            "NLP",
+            "Model Surgery",
+            "ML for Biology",
+            "PyTorch"
+        ]
+    }
+]

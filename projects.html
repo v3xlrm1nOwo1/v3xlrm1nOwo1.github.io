@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <script>
+            if (history.scrollRestoration) history.scrollRestoration = "manual";
+        </script>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+        <link rel="canonical" href="https://v3xlrm1nOwo1.github.io/projects" />
+        <link rel="stylesheet" href="./src/styles/index.css" />
+        <link
+            rel="icon"
+            type="image/png"
+            href="src/images/elaina/elaina-4-chara.png"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+            crossorigin="anonymous"
+        />
+        <script type="module" src="./src/scripts/index.js" defer></script>
+        <link
+            rel="preload"
+            href="./data/datasets.json"
+            as="fetch"
+            crossorigin
+        />
+        <link
+            rel="preload"
+            href="./data/MeanProject.json"
+            as="fetch"
+            crossorigin
+        />
+        <link
+            rel="preload"
+            href="./data/OtherProjects.json"
+            as="fetch"
+            crossorigin
+        />
+        <link rel="preload" href="./data/social.json" as="fetch" crossorigin />
+        <meta
+            name="description"
+            content="Software and ML projects by Mohammed Khalil, including main projects, datasets, and open-source work."
+        />
+        <meta name="author" content="Mohammed Khalil" />
+        <meta name="theme-color" content="#000000" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Mohammed Khalil — Projects" />
+        <meta
+            property="og:description"
+            content="Software and ML projects by Mohammed Khalil, including main projects, datasets, and open-source work."
+        />
+        <meta
+            property="og:image"
+            content="https://v3xlrm1nOwo1.github.io/src/images/elaina/elaina-about-new.jpg"
+        />
+        <meta property="og:image:width" content="736" />
+        <meta property="og:image:height" content="736" />
+        <meta
+            property="og:url"
+            content="https://v3xlrm1nOwo1.github.io/projects"
+        />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:creator" content="@v3xlrm1nOwo1" />
+        <meta name="twitter:title" content="Mohammed Khalil — Projects" />
+        <meta
+            name="twitter:description"
+            content="Software and ML projects by Mohammed Khalil, including main projects, datasets, and open-source work."
+        />
+        <meta
+            name="twitter:image"
+            content="https://v3xlrm1nOwo1.github.io/src/images/elaina/elaina-about-new.jpg"
+        />
+        <meta
+            name="twitter:url"
+            content="https://v3xlrm1nOwo1.github.io/projects"
+        />
+        <title>Projects | Yare Sama</title>
+    </head>
+
+    <body id="top-projects">
+        <div
+            id="read-progress"
+            role="progressbar"
+            aria-valuemin="0"
+            aria-valuemax="100"
+            aria-valuenow="0"
+            aria-label="Page scroll progress"
+        ></div>
+        <a class="skip-link" href="#main-content">Skip to main content</a>
+        <header>
+            <nav id="nav">
+                <div class="navbar">
+                    <a class="nav-brand" href="/">
+                        <img
+                            src="src/images/elaina/elaina-4-chara.png"
+                            alt="Elaina — The Ashen Witch"
+                            class="nav-avatar"
+                        />
+                        <h4 class="nav-title">
+                            Yare<span class="nav-title-gap"></span>Sama
+                        </h4>
+                    </a>
+                    <div class="links">
+                        <a class="nav-link" href="/publications"
+                            >Publications</a
+                        >
+                        <a class="nav-link" href="/projects">Projects</a>
+                        <a class="nav-link" href="/career">Career</a>
+                        <a class="nav-link" href="/blogs">Blog</a>
+                        <a class="nav-link" href="/#contact">Contact</a>
+                    </div>
+                    <div
+                        class="hamburger"
+                        role="button"
+                        tabindex="0"
+                        aria-label="Toggle navigation menu"
+                        aria-expanded="false"
+                    >
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div id="main-content"></div>
+
+        <!-- Hero -->
+        <section class="proj-hero">
+            <h1 class="proj-hero__title">Projects</h1>
+            <p class="proj-hero__sub">
+                A collection of ML research, datasets, and software I've built
+                and explored.
+            </p>
+            <div class="proj-hero__stats">
+                <span><strong>2</strong> Featured</span>
+                <span class="proj-stat__sep">·</span>
+                <span><strong>4</strong> Datasets</span>
+                <span class="proj-stat__sep">·</span>
+                <span><strong>35+</strong> Projects</span>
+            </div>
+        </section>
+
+        <!-- Featured Projects -->
+        <section class="proj-section">
+            <div class="proj-section__header">
+                <span class="proj-section__line"></span>
+                <h2 class="proj-section__title">Featured</h2>
+                <span class="proj-section__line"></span>
+            </div>
+            <div id="meanProjectsList" class="mp-list"></div>
+        </section>
+
+        <!-- Datasets — header and carousel unified in one section -->
+        <section class="proj-scroll-section">
+            <div class="proj-scroll-section__header">
+                <span class="proj-section__line"></span>
+                <h2 class="proj-section__title">Datasets</h2>
+                <span class="proj-section__line"></span>
+            </div>
+            <div class="main-scroll-div">
+                <div>
+                    <button
+                        class="icon-arrow"
+                        data-scroll="left"
+                        aria-label="Scroll datasets left"
+                    >
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                </div>
+                <div class="cover">
+                    <div class="scroll-images">
+                        <div id="datasetList" class="ds-scroll"></div>
+                    </div>
+                </div>
+                <div>
+                    <button
+                        class="icon-arrow"
+                        data-scroll="right"
+                        aria-label="Scroll datasets right"
+                    >
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Other Noteworthy Projects — header and carousel unified -->
+        <section class="proj-scroll-section">
+            <div class="proj-scroll-section__header">
+                <span class="proj-section__line"></span>
+                <h2 class="proj-section__title">Other Noteworthy Projects</h2>
+                <span class="proj-section__line"></span>
+            </div>
+            <div class="main-scroll-div">
+                <div>
+                    <button
+                        class="icon-arrow"
+                        data-scroll="left"
+                        aria-label="Scroll projects left"
+                    >
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                </div>
+                <div class="cover">
+                    <div class="scroll-images">
+                        <div
+                            id="projects-container"
+                            class="small-projects"
+                        ></div>
+                    </div>
+                </div>
+                <div>
+                    <button
+                        class="icon-arrow"
+                        data-scroll="right"
+                        aria-label="Scroll projects right"
+                    >
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <a href="#top-projects" class="arrow-bac">
+            <img
+                src="./src/images/other_icons/arrow-top.svg"
+                class="arrow"
+                alt="Arrow Top"
+            />
+        </a>
+
+        <footer>
+            <div id="socialLinks" class="icons"></div>
+            <p class="elaina-footer-quote">
+                ✦ "The world is vast, and I've only just set out." — Elaina, The
+                Ashen Witch ✦
+            </p>
+            <div class="github">
+                <a
+                    class="github-link"
+                    href="https://github.com/v3xlrm1nowo1/v3xlrm1nowo1.github.io"
+                    >Copyright © Yare Sama</a
+                >
+            </div>
+        </footer>
+        <script src="./src/scripts/utils.js"></script>
+        <script
+            data-name="BMC-Widget"
+            data-cfasync="false"
+            src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js"
+            data-id="v3xlrm1nowo1"
+            data-description="Support me on Buy me a coffee!"
+            data-color="#FFDD00"
+            data-position="left"
+            data-x_margin="18"
+            data-y_margin="18"
+        ></script>
+    </body>
+</html>

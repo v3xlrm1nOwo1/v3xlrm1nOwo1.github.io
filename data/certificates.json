@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "imagePath": "./src/images/certificate/certificate-git-and-github.png",
+        "imageAlt": "Certificate Git and Github",
+        "title": "Git and Github Essentials",
+        "certificateUrl": "https://amigoscode.com/courses/1317178/certificate"
+    },
+    {
+        "id": 2,
+        "imagePath": "./src/images/certificate/certificate-relational-db-sql.png",
+        "imageAlt": "Certificate Relational DB SQL",
+        "title": "Relational Database and SQL Essentials",
+        "certificateUrl": "https://amigoscode.com/courses/515567/certificate"
+    },
+    {
+        "id": 3,
+        "imagePath": "./src/images/certificate/certificate-terminal-bash-vim.png",
+        "imageAlt": "Certificate Terminal Bash Vim",
+        "title": "Terminal, Bash & VIM Essentials",
+        "certificateUrl": "https://amigoscode.com/courses/855076/certificate"
+    },
+    {
+        "id": 4,
+        "imagePath": "./src/images/certificate/certificate-intro-to-ai-ibm.png",
+        "imageAlt": "Introduction to Artificial Intelligence (AI)",
+        "title": "Introduction to Artificial Intelligence (AI)",
+        "certificateUrl": "https://coursera.org/share/6f74bd9186caf8cb74b613a866366e20"
+    }
+]

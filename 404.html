@@ -1,0 +1,415 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <script>
+            if (history.scrollRestoration) history.scrollRestoration = "manual";
+        </script>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="robots" content="noindex" />
+        <meta
+            name="description"
+            content="Page not found. Head back to the home page."
+        />
+        <meta name="author" content="Mohammed Khalil" />
+        <meta name="theme-color" content="#070614" />
+        <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link rel="stylesheet" href="./src/styles/index.css" />
+        <link
+            rel="icon"
+            type="image/png"
+            href="./src/images/elaina/elaina-4-chara.png"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+            crossorigin="anonymous"
+        />
+        <script type="module" src="./src/scripts/index.js" defer></script>
+        <title>404 — Page Not Found | Yare Sama</title>
+
+        <style>
+            /* ── 404 layout ───────────────────────────────────────── */
+            .notfound-wrapper {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                min-height: 80vh;
+                text-align: center;
+                padding: 120px 20px 40px;
+                gap: 0;
+            }
+
+            /* Elaina wandering image */
+            .notfound-elaina {
+                width: 280px;
+                object-fit: contain;
+                filter: drop-shadow(0 0 24px rgba(196, 168, 232, 0.25));
+                animation: elaina-rise-fall 4s ease-in-out infinite;
+                margin-bottom: 12px;
+            }
+
+            @media (prefers-reduced-motion: reduce) {
+                .notfound-elaina {
+                    animation: none;
+                }
+            }
+
+            /* Big 404 */
+            .notfound-code {
+                font-family: Cinzel, "Times New Roman", serif;
+                font-size: 130px;
+                font-weight: 700;
+                color: #c4a8e8;
+                margin: 0;
+                line-height: 1;
+                letter-spacing: 6px;
+                animation: elaina-glow 4s ease-in-out infinite;
+            }
+
+            /* Title */
+            .notfound-msg {
+                font-family: Cinzel, "Times New Roman", serif;
+                color: #d8d4e8;
+                font-size: 24px;
+                font-weight: 500;
+                letter-spacing: 0.06em;
+                margin: 18px 0 10px;
+            }
+
+            /* Subtitle */
+            .notfound-sub {
+                font-family: Raleway, sans-serif;
+                color: #9a96b8;
+                font-size: 17px;
+                line-height: 1.7;
+                margin: 0 0 32px;
+                max-width: 420px;
+            }
+
+            /* Go Home button — matches .cv style */
+            .notfound-home {
+                color: #c4a8e8;
+                border: 2px solid #c4a8e8;
+                border-radius: 5px;
+                padding: 12px 44px;
+                text-align: center;
+                font-size: 20px;
+                font-family: Cinzel, serif;
+                letter-spacing: 0.04em;
+                text-decoration: none;
+                transition: background-color 0.2s ease;
+            }
+
+            .notfound-home:hover {
+                background-color: #1e1b38;
+            }
+
+            /* ── Search box ───────────────────────────────────────── */
+            .notfound-search-wrap {
+                margin-top: 40px;
+                width: 100%;
+                max-width: 480px;
+            }
+
+            .notfound-search-label {
+                font-family: Cinzel, serif;
+                color: #c4a8e8;
+                font-size: 14px;
+                letter-spacing: 0.08em;
+                margin-bottom: 12px;
+                opacity: 0.8;
+            }
+
+            .notfound-search-row {
+                display: flex;
+                gap: 8px;
+            }
+
+            .notfound-search-input {
+                flex: 1;
+                background: #0f0e1f;
+                border: 1px solid #3a3460;
+                border-radius: 6px;
+                color: #d8d4e8;
+                font-family: Inconsolata, monospace;
+                font-size: 15px;
+                padding: 10px 14px;
+                outline: none;
+                transition: border-color 0.2s ease;
+            }
+
+            .notfound-search-input::placeholder {
+                color: #5a5680;
+            }
+            .notfound-search-input:focus {
+                border-color: #c4a8e8;
+            }
+
+            .notfound-search-btn {
+                background: transparent;
+                border: 1px solid #c4a8e8;
+                border-radius: 6px;
+                color: #c4a8e8;
+                font-family: Cinzel, serif;
+                font-size: 14px;
+                letter-spacing: 0.04em;
+                padding: 10px 18px;
+                cursor: pointer;
+                transition: background-color 0.2s ease;
+            }
+
+            .notfound-search-btn:hover {
+                background-color: #1e1b38;
+            }
+
+            /* ── Recent posts ─────────────────────────────────────── */
+            .notfound-recent {
+                margin-top: 40px;
+                width: 100%;
+                max-width: 560px;
+            }
+
+            .notfound-recent-title {
+                font-family: Cinzel, serif;
+                color: #c4a8e8;
+                font-size: 14px;
+                letter-spacing: 0.08em;
+                margin-bottom: 16px;
+                opacity: 0.8;
+            }
+
+            .notfound-posts-list {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .notfound-post-card {
+                background: #0f0e1f;
+                border: 1px solid #2a2545;
+                border-radius: 8px;
+                padding: 14px 18px;
+                text-align: left;
+                text-decoration: none;
+                display: block;
+                transition:
+                    border-color 0.2s ease,
+                    background-color 0.2s ease;
+            }
+
+            .notfound-post-card:hover {
+                border-color: #c4a8e8;
+                background-color: #14122a;
+            }
+
+            .notfound-post-title {
+                font-family: Raleway, sans-serif;
+                color: #d8d4e8;
+                font-size: 15px;
+                font-weight: 600;
+                margin: 0 0 4px;
+                line-height: 1.4;
+            }
+
+            .notfound-post-date {
+                font-family: Inconsolata, monospace;
+                color: #7a76a0;
+                font-size: 12px;
+            }
+
+            .notfound-posts-empty {
+                color: #5a5680;
+                font-family: Raleway, sans-serif;
+                font-size: 14px;
+            }
+
+            @media (max-width: 600px) {
+                .notfound-code {
+                    font-size: 80px;
+                    letter-spacing: 3px;
+                }
+                .notfound-msg {
+                    font-size: 18px;
+                }
+                .notfound-elaina {
+                    width: 190px;
+                }
+            }
+        </style>
+    </head>
+
+    <body>
+        <a class="skip-link" href="#main-content">Skip to main content</a>
+        <div id="top-home"></div>
+        <header>
+            <nav id="nav">
+                <div class="navbar">
+                    <a class="nav-brand" href="/">
+                        <img
+                            src="./src/images/elaina/elaina-4-chara.png"
+                            alt="Elaina — The Ashen Witch"
+                            class="nav-avatar"
+                        />
+                        <h4 class="nav-title">
+                            Yare<span class="nav-title-gap"></span>Sama
+                        </h4>
+                    </a>
+                    <div class="links">
+                        <a class="nav-link" href="/publications"
+                            >Publications</a
+                        >
+                        <a class="nav-link" href="/projects">Projects</a>
+                        <a class="nav-link" href="/career">Career</a>
+                        <a class="nav-link" href="/blogs">Blog</a>
+                        <a class="nav-link" href="/#contact">Contact</a>
+                    </div>
+                    <div
+                        class="hamburger"
+                        role="button"
+                        tabindex="0"
+                        aria-label="Toggle navigation menu"
+                        aria-expanded="false"
+                    >
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div id="main-content"></div>
+
+        <div class="notfound-wrapper">
+            <p class="notfound-code">404</p>
+            <p class="notfound-msg">Lost in the Journey</p>
+            <p class="notfound-sub">
+                Even the Ashen Witch sometimes wanders off the path.<br />
+                This page doesn't exist or has been moved.
+            </p>
+            <a class="notfound-home" href="/">Go Home</a>
+
+            <!-- ── Search ──────────────────────────────────────────── -->
+            <div class="notfound-search-wrap">
+                <p class="notfound-search-label">✦ LOOKING FOR SOMETHING?</p>
+                <div class="notfound-search-row">
+                    <input
+                        type="text"
+                        class="notfound-search-input"
+                        id="notfound-search"
+                        placeholder="Search blog posts…"
+                        autocomplete="off"
+                        aria-label="Search blog posts"
+                    />
+                    <button
+                        class="notfound-search-btn"
+                        id="notfound-search-btn"
+                        type="button"
+                    >
+                        Search
+                    </button>
+                </div>
+            </div>
+
+            <!-- ── Recent posts ────────────────────────────────────── -->
+            <div class="notfound-recent">
+                <p class="notfound-recent-title">✦ RECENT POSTS</p>
+                <div id="notfound-posts" class="notfound-posts-list">
+                    <p class="notfound-posts-empty">Loading…</p>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div id="socialLinks" class="icons"></div>
+            <p class="elaina-footer-quote">
+                ✦ "The world is vast, and I've only just set out." — Elaina, The
+                Ashen Witch ✦
+            </p>
+            <div class="github">
+                <a
+                    class="github-link"
+                    href="https://github.com/v3xlrm1nowo1/v3xlrm1nowo1.github.io"
+                    >Copyright © Yare Sama</a
+                >
+            </div>
+        </footer>
+
+        <script src="./src/scripts/utils.js"></script>
+
+        <script>
+            (function notFound404() {
+                /* ── Search ──────────────────────────────────────── */
+                var searchInput = document.getElementById("notfound-search");
+                var searchBtn = document.getElementById("notfound-search-btn");
+
+                function doSearch() {
+                    var q = (searchInput.value || "").trim();
+                    if (!q) return;
+                    window.location.href =
+                        "/blogs?search=" + encodeURIComponent(q);
+                }
+
+                if (searchBtn) searchBtn.addEventListener("click", doSearch);
+                if (searchInput) {
+                    searchInput.addEventListener("keydown", function (e) {
+                        if (e.key === "Enter") doSearch();
+                    });
+                }
+
+                /* ── Recent posts ────────────────────────────────── */
+                var postsEl = document.getElementById("notfound-posts");
+                if (!postsEl) return;
+
+                fetch("./data/blogs.json", { cache: "default" })
+                    .then(function (r) {
+                        return r.json();
+                    })
+                    .then(function (posts) {
+                        if (!posts || !posts.length) {
+                            postsEl.innerHTML =
+                                '<p class="notfound-posts-empty">No posts yet.</p>';
+                            return;
+                        }
+                        var recent = posts.slice(0, 4);
+                        postsEl.innerHTML = recent
+                            .map(function (p) {
+                                var dateStr = "";
+                                if (p.date) {
+                                    var d = new Date(p.date + "T00:00:00");
+                                    dateStr = d.toLocaleDateString("en-US", {
+                                        year: "numeric",
+                                        month: "long",
+                                        day: "numeric",
+                                    });
+                                }
+                                var slug = (p.file || "").replace(/\.md$/, "");
+                                return (
+                                    '<a class="notfound-post-card" href="/blog-post?post=' +
+                                    encodeURIComponent(slug) +
+                                    '">' +
+                                    '<p class="notfound-post-title">' +
+                                    (p.title || "Untitled") +
+                                    "</p>" +
+                                    (dateStr
+                                        ? '<span class="notfound-post-date">' +
+                                          dateStr +
+                                          "</span>"
+                                        : "") +
+                                    "</a>"
+                                );
+                            })
+                            .join("");
+                    })
+                    .catch(function () {
+                        postsEl.innerHTML =
+                            '<p class="notfound-posts-empty">Could not load recent posts.</p>';
+                    });
+            })();
+        </script>
+    </body>
+</html>

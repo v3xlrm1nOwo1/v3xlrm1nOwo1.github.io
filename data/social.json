@@ -1,0 +1,32 @@
+[
+    {
+        "url": "https://github.com/v3xlrm1nOwo1",
+        "icon": "./src/images/social_media_icons/github.svg",
+        "alt": "GitHub",
+        "target": "_blank"
+    },
+    {
+        "url": "mailto:mohammed.khalil.mah@gmail.com",
+        "icon": "./src/images/social_media_icons/email.svg",
+        "alt": "Email",
+        "target": "_self"
+    },
+    {
+        "url": "https://x.com/v3xlrm1nOwo1",
+        "icon": "./src/images/social_media_icons/twitter.svg",
+        "alt": "Twitter / X",
+        "target": "_blank"
+    },
+    {
+        "url": "https://discord.com/users/1115622029178192005",
+        "icon": "./src/images/social_media_icons/discord.svg",
+        "alt": "Discord",
+        "target": "_blank"
+    },
+    {
+        "url": "https://www.linkedin.com/in/mahmd-khalil",
+        "icon": "./src/images/social_media_icons/linkedin.svg",
+        "alt": "LinkedIn",
+        "target": "_blank"
+    }
+]

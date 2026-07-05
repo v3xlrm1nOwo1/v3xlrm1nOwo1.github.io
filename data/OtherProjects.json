@@ -1,0 +1,261 @@
+[
+    {
+        "title": "BaybBERT",
+        "container": "Learning Project: An implementation of Encoder Transformer (BERT) to develop understanding of Encoder Transformer (BERT) model functioning.",
+        "imageSrc": "https://skillicons.dev/icons?i=python,pytorch",
+        "imageAlt": "Python, PyTorch",
+        "url": "https://github.com/v3xlrm1nOwo1/BaybBERT"
+    },
+    {
+        "title": "BaybGPT",
+        "container": "Learning Project: An implementation of GPT to develop understanding of Decoder-Only Transformer model functioning.",
+        "imageSrc": "https://skillicons.dev/icons?i=python,pytorch",
+        "imageAlt": "Python, PyTorch",
+        "url": "https://github.com/v3xlrm1nOwo1/BaybGPT"
+    },
+    {
+        "title": "Transformer Implementation",
+        "container": "Learning Project: An implementation of Transformer to develop understanding of encoder-decoder Transformer architecture functioning.",
+        "imageSrc": "https://skillicons.dev/icons?i=python,pytorch",
+        "imageAlt": "Python, PyTorch",
+        "url": "https://github.com/v3xlrm1nOwo1/Transformer-Implementation"
+    },
+    {
+        "title": "Google Translate OCR Extract Text From PDF",
+        "container": "Google translate for extract text From PDF",
+        "imageSrc": "https://skillicons.dev/icons?i=python",
+        "imageAlt": "Python",
+        "url": "https://github.com/v3xlrm1nOwo1/GoogleTranslateOCRExtractTextFromPDF"
+    },
+    {
+        "title": "DeepSeek Chat",
+        "container": "Chat application / deep search assistant (Python project).",
+        "imageSrc": "https://skillicons.dev/icons?i=python",
+        "imageAlt": "Python",
+        "url": "https://github.com/v3xlrm1nOwo1/DeepSeek-Chat"
+    },
+    {
+        "title": "Loss Effect Analysis",
+        "container": "LossEffectAnalysis is a project that explores the impact of different loss functions on optimization dynamics and model performance in binary classification tasks",
+        "imageSrc": "https://skillicons.dev/icons?i=python,pytorch",
+        "imageAlt": "Python/Jupyter, PyTorch",
+        "url": "https://github.com/v3xlrm1nOwo1/LossEffectAnalysis"
+    },
+    {
+        "title": "HyperOpt-Tuner",
+        "container": "Hyperparameter Tuning.",
+        "imageSrc": "https://skillicons.dev/icons?i=python,pytorch",
+        "imageAlt": "Python/Jupyter, PyTorch",
+        "url": "https://github.com/v3xlrm1nOwo1/HyperOpt-Tuner"
+    },
+    {
+        "title": "Catchy",
+        "container": "Comparing and Optimizing Gradient Descent Variants in Deep Learning",
+        "imageSrc": "https://skillicons.dev/icons?i=python,pytorch",
+        "imageAlt": "Python/Jupyter, PyTorch",
+        "url": "https://github.com/v3xlrm1nOwo1/catchy"
+    },
+    {
+        "title": "v3xlrm1nOwo1.github.io",
+        "container": "A fast lightweight personal portfolio and technical blog built entirely without frameworks or bundlers.",
+        "imageSrc": "https://skillicons.dev/icons?i=html,css,js",
+        "imageAlt": "HTML, CSS, JS",
+        "url": "https://github.com/v3xlrm1nOwo1/v3xlrm1nOwo1.github.io"
+    },
+    {
+        "title": "Kaidan Nihonbunka",
+        "container": "Kaidan Nihonbunka: A Journey Through Hyakumonogatari's Ghostly Tales (Scraping / Dataset).",
+        "imageSrc": "https://skillicons.dev/icons?i=python",
+        "imageAlt": "Python/Scraper",
+        "url": "https://github.com/v3xlrm1nOwo1/KaidanNihonbunka"
+    },
+    {
+        "title": "Akiyama Mio",
+        "container": "Mio is NLP model capable of generating anime lyrics",
+        "imageSrc": "https://skillicons.dev/icons?i=python,pytorch",
+        "imageAlt": "Python/NLP",
+        "url": "https://github.com/v3xlrm1nOwo1/AkiyamaMio"
+    },
+    {
+        "title": "Anime Songs Lyrics",
+        "container": "Anime Songs Lyrics (Scraping / Dataset).",
+        "imageSrc": "https://skillicons.dev/icons?i=python",
+        "imageAlt": "Python/Scraper",
+        "url": "https://github.com/v3xlrm1nOwo1/AnimeSongsLyrics"
+    },
+    {
+        "title": "Anime Quotes",
+        "container": "Anime quotes (Scraping / Dataset).",
+        "imageSrc": "https://skillicons.dev/icons?i=python",
+        "imageAlt": "Python/NLP",
+        "url": "https://github.com/v3xlrm1nOwo1/AnimeQuotes"
+    },
+    {
+        "title": "Try Git & Github",
+        "container": "This Repo contains all the common commands in Git, You can fork this Repo and add the commands you want to add or practice on Github workflow and Git commands",
+        "imageSrc": "https://skillicons.dev/icons?i=git,github,python",
+        "imageAlt": "Git, Github, Python",
+        "url": "https://github.com/v3xlrm1nOwo1/Try-Git-and-Github"
+    },
+    {
+        "title": "Know Medical Dialogues With LLama2",
+        "container": "I created this project for learning how to finetune an LLM for understanding and generating medically-informed dialogue.",
+        "imageSrc": "https://skillicons.dev/icons?i=python,pytorch,transformers",
+        "imageAlt": "Python, PyTorch, Transformers",
+        "url": "https://github.com/v3xlrm1nOwo1/know-Medical-Dialogues-With-LLama2"
+    },
+    {
+        "title": "Myanimelist Scraper",
+        "container": "Myanimelist Scraper that scrape anime data, reviews and characters information from Myanimelist.net.",
+        "imageSrc": "https://skillicons.dev/icons?i=python",
+        "imageAlt": "Python",
+        "url": "https://github.com/v3xlrm1nOwo1/myanimelist-scraper"
+    },
+    {
+        "title": "Identify the Entity of Traditional Chinese Medicine With BERT",
+        "container": "Identify the entity of traditional Chinese medicine with BERT Chinese",
+        "imageSrc": "https://skillicons.dev/icons?i=python",
+        "imageAlt": "Python/NLP",
+        "url": "https://github.com/v3xlrm1nOwo1/Identify-the-entity-of-traditional-Chinese-medicine-with-BERT"
+    },
+    {
+        "title": "Entity Extraction With BERT",
+        "container": "Entity extraction with BERT",
+        "imageSrc": "https://skillicons.dev/icons?i=python",
+        "imageAlt": "Python/NLP",
+        "url": "https://github.com/v3xlrm1nOwo1/entity-extraction-with-BERT"
+    },
+    {
+        "title": "Fungi Diagnostic Chars Comparison Japanese Classification With BERT",
+        "container": "fungi diagnostic chars comparison japanese with BERT base japanese",
+        "imageSrc": "https://skillicons.dev/icons?i=python,pytorch",
+        "imageAlt": "Python, PyTorch",
+        "url": "https://github.com/v3xlrm1nOwo1/fungi-diagnostic-chars-comparison-japanese-classification-with-BERT"
+    },
+    {
+        "title": "Songs Genre Classification by Lyrics With BERT and LoRA",
+        "container": "Songs Genre Classification by Lyrics With BERT And LoRA",
+        "imageSrc": "https://skillicons.dev/icons?i=python,pytorch",
+        "imageAlt": "Python, PyTorch",
+        "url": "https://github.com/v3xlrm1nOwo1/Songs-Genre-Classification-by-Lyrics-With-BERT-And-LoRA"
+    },
+    {
+        "title": "Google Play Sentiment Analysis With BERT",
+        "container": "Google Play Sentiment Analysis With BERT",
+        "imageSrc": "https://skillicons.dev/icons?i=python",
+        "imageAlt": "Python/NLP",
+        "url": "https://github.com/v3xlrm1nOwo1/Google-Play-Sentiment-Analysis-With-BERT"
+    },
+    {
+        "title": "Member API",
+        "container": "It's a simple API using Flask.",
+        "imageSrc": "https://skillicons.dev/icons?i=python,flask",
+        "imageAlt": "Python, Flask",
+        "url": "https://github.com/v3xlrm1nOwo1/Member-API"
+    },
+    {
+        "title": "Food Tracker",
+        "container": "Food Tracker App used with Python Flask HTML, CSS, SQL Alchemy and SQLite",
+        "imageSrc": "https://skillicons.dev/icons?i=python,flask,html,css,sqlite",
+        "imageAlt": "Python, Flask, HTML, CSS, SQLite",
+        "url": "https://github.com/v3xlrm1nOwo1/Food-Tracker"
+    },
+    {
+        "title": "Ninja Files",
+        "container": "Static/HTML project (website files).",
+        "imageSrc": "https://skillicons.dev/icons?i=html",
+        "imageAlt": "HTML",
+        "url": "https://github.com/v3xlrm1nOwo1/ninja-files"
+    },
+    {
+        "title": "Questions and Answers",
+        "container": "Questions & Answers App (Python Flask HTML, CSS, SQL Alchemy and SQLite).",
+        "imageSrc": "https://skillicons.dev/icons?i=python,flask,html,css,sqlite",
+        "imageAlt": "Python, Flask, HTML, CSS, SQLite",
+        "url": "https://github.com/v3xlrm1nOwo1/questions-and-answers"
+    },
+    {
+        "title": "Todo List",
+        "container": "Todo list (Flask/Html project).",
+        "imageSrc": "https://skillicons.dev/icons?i=python,html",
+        "imageAlt": "Python, HTML",
+        "url": "https://github.com/v3xlrm1nOwo1/Todo-List"
+    },
+    {
+        "title": "Translate Subtitles Files",
+        "container": "Translate subtitles files (Python utility).",
+        "imageSrc": "https://skillicons.dev/icons?i=python",
+        "imageAlt": "Python",
+        "url": "https://github.com/v3xlrm1nOwo1/translate-subtitles-files"
+    },
+    {
+        "title": "Numpy",
+        "container": "Everything I learn in numpy",
+        "imageSrc": "https://skillicons.dev/icons?i=python",
+        "imageAlt": "Python, NumPy",
+        "url": "https://github.com/v3xlrm1nOwo1/Numpy"
+    },
+    {
+        "title": "Machine Learning From Scratch",
+        "container": "Machine Learning From Scratch, just use Python and NumPy",
+        "imageSrc": "https://skillicons.dev/icons?i=python",
+        "imageAlt": "Python/NumPy",
+        "url": "https://github.com/v3xlrm1nOwo1/Machine-Learning-From-Scratch"
+    },
+    {
+        "title": "Write Text in GIF",
+        "container": "Write Text in GIF is a script using Python",
+        "imageSrc": "https://skillicons.dev/icons?i=python",
+        "imageAlt": "Python",
+        "url": "https://github.com/v3xlrm1nOwo1/Write-Text-in-GIF"
+    },
+    {
+        "title": "Discussion Board",
+        "container": "My First Django Project Discussion Board",
+        "imageSrc": "https://skillicons.dev/icons?i=python,django,html,css",
+        "imageAlt": "Python, Django, HTML, CSS",
+        "url": "https://github.com/v3xlrm1nOwo1/Discussion-Board"
+    },
+    {
+        "title": "Weather App",
+        "container": "My second project in Django Weather App",
+        "imageSrc": "https://skillicons.dev/icons?i=python,django,html,css",
+        "imageAlt": "Python, Django, HTML, CSS",
+        "url": "https://github.com/v3xlrm1nOwo1/Weather-App"
+    },
+    {
+        "title": "Learning SQL",
+        "container": "Here I write everything I learn in SQL using MySQL",
+        "imageSrc": "https://skillicons.dev/icons?i=mysql",
+        "imageAlt": "MySQL",
+        "url": "https://github.com/v3xlrm1nOwo1/Learning-SQL"
+    },
+    {
+        "title": "Download Project",
+        "container": "Download Files And Download Videos And Audio From YouTube And Playlist From YouTube",
+        "imageSrc": "https://skillicons.dev/icons?i=python,pyqt",
+        "imageAlt": "Python, PyQt",
+        "url": "https://github.com/v3xlrm1nOwo1/Download-Progect"
+    },
+    {
+        "title": "Tetris Game",
+        "container": "Create Tetris Game Using Python Language and Pygame Library",
+        "imageSrc": "https://skillicons.dev/icons?i=python,pygame",
+        "imageAlt": "Python, Pygame",
+        "url": "https://github.com/v3xlrm1nOwo1/Tetris-Game"
+    },
+    {
+        "title": "Python Project Tic Tac Toe",
+        "container": "Tic Tac Toe Python Project (X, O) Project Using Python Language and Pygame Library",
+        "imageSrc": "https://skillicons.dev/icons?i=python,pygame",
+        "imageAlt": "Python, Pygame",
+        "url": "https://github.com/v3xlrm1nOwo1/Python-Project-Tic-Tac-Toe"
+    },
+    {
+        "title": "Python Project Typing Speed-Game",
+        "container": "A project to test writing speed, accuracy and time using the Python language and the Pygame library",
+        "imageSrc": "https://skillicons.dev/icons?i=python,pygame",
+        "imageAlt": "Python, Pygame",
+        "url": "https://github.com/v3xlrm1nOwo1/Python-Project-Typing-Speed-Game"
+    }
+]
